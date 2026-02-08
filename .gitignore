@@ -19,3 +19,7 @@
 .DS_Store
 venv/
 __pycache__/
+
+# --- NEW ADDITIONS (PDFs) ---
+!NLP - Assignment 3_ MachineTranslation.pdf
+!A3_Machine_Tranalation (1).pdf
