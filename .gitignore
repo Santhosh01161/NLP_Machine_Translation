@@ -1,0 +1,21 @@
+# 1. Ignore EVERYTHING by default
+*
+
+# 2. But allow directories (so we can find app/)
+!*/
+
+# 3. Explicitly Whitelist the specific files you want in Root
+!A3_Machine_Tranalation (1).ipynb
+!en-ta-transformer-additive.pt
+!en-ta-transformer-general.pt
+!en_vocab.pth
+!ta_vocab.pth
+!.gitignore
+
+# 4. Whitelist the ENTIRE app folder
+!app/**
+
+# 5. Explicitly block system junk (just in case)
+.DS_Store
+venv/
+__pycache__/
